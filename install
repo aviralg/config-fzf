@@ -1,0 +1,9 @@
+#!/usr/bin/env fish
+
+switch (uname)
+    case Linux
+        sudo apt-get install fzf
+    case Darwin
+        brew install fzf
+end
+
